@@ -1,0 +1,11 @@
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("p.required input").attr("required", "required");
+		$("p.first_name input").attr({"placeholder": "Type your first name here", "maxlength": "50"});
+		$("p.last_name input").attr({"placeholder": "Type your last name here", "maxlength": "50"});
+		$("p.phone input").attr({"placeholder": "Type your phone number here"});
+		$("p.email input").attr("placeholder","example@example.com");
+	
+	});
+</script>
